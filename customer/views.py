@@ -8,4 +8,4 @@ class CustomerViewSet(viewsets.ModelViewSet):
 
     queryset = Customer.objects.all()
     serializer_class = CustomerSerializer
-    http_method_names = ['get', 'update', 'patch', 'delete']
+    http_method_names = ['get', 'post', 'put', 'patch', 'delete']
